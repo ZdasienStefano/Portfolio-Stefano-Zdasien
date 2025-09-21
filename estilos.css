@@ -1,0 +1,191 @@
+    body {
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-top: 6%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    input {
+        margin-left: 5px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        width: 430px;
+    }
+
+
+
+    .claseFotoCara {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: 18%;
+
+    }
+
+
+    .clasePresentacion {
+        margin-bottom: 190px;
+
+    }
+
+
+
+
+    .cajaFondoConocimientos {
+        background-color: rgb(36, 160, 160);
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+
+        height: max-content;
+    }
+
+    .cajaFondoProyectos {
+
+        background-color: rgb(36, 160, 160);
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+        height: max-content;
+    }
+
+    .uno {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(48, 138, 56);
+    }
+
+    .tres {
+
+        width: 100%;
+        height: fit-content;
+        background-color: gray;
+        margin-top: 10px;
+
+    }
+
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 10px 30px;
+    }
+
+    .logo {
+        color: white;
+        font-weight: bold;
+    }
+
+    .menu {
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    .menu li a:hover {
+        color: lightgreen;
+    }
+
+
+
+    .cajaPresentacion {
+
+        text-align: center;
+        justify-content: center;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 1px;
+
+    }
+
+    .cajaConocimientos {
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+
+    }
+
+    .cajaProyectos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 4%;
+        gap: 30px;
+
+    }
+
+    .cajaRedes {
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: auto;
+
+    }
+
+    .cajaFormulario {
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 100px;
+
+
+
+
+    }
+
+
+    .imagen {
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+        margin: 25px;
+    }
+
+    #idImagenProyecto {
+        width: 400px;
+        height: 400px;
+        object-fit: contain;
+        display: block;
+        margin: 0 auto;
+
+    }
